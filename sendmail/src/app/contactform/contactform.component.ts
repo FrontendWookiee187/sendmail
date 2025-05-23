@@ -10,4 +10,20 @@ import { FormsModule } from '@angular/forms';
 })
 export class ContactformComponent {
 
+contactData = {
+
+name: '',
+email: '',
+message: '',
+
+}
+
+
+  onSubmit() {
+    console.log(this.contactData);
+    
+
+
+  }
+
 }
